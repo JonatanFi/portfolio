@@ -2,46 +2,82 @@
 	margin: auto;
 	display: block;
 	background-color: #006363;
+	height: 100px;
+	text-align: center;
+	font-size: 50px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid black;
 }
+
+#header {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+
+
+
+
+#menuSection {
+	display: inline-block;
+	float: left;
+	width: 14%;
+	text-align: center;
+	background-color: #006363;
+	border-bottom-left-radius: 10px;
+	border: 1px solid black;
+}
+
+.buttons a {
+	text-decoration: none;
+	color: black;
+}
+
+#menuNavigation {
+	padding: 10px;
+	height: 514px;
+}
+
+#menuTitle {
+	font-size: 30px;
+}
+
+.buttons{
+	background-color: #d91818;
+	border-radius: 7px;
+	text-align: center;
+	list-style: none;
+	background-position: center;
+}
+
+.buttons a:hover {
+	color: blue;
+}
+
+
+
+
 
 div p img {
 	width: 200px;
 	display: inline;
 }
 
-#menuSection {
-	display: inline-block;
-	float: left;
-	width: 15%;
-	text-align: center;
-	background-color: #006363;
-}
-
-#menuSection > nav > p > ul > li {
-	
-}
-
-.buttons{
-	border: 2px solid #d91818;
-	background-color: #d91818;
-	border-radius: 7px;
-	text-align: center;
-}
-
-.buttons:hover {
-	color: green;
-	font-weight: bold;
-}
-
 #middleSection {
 	display: inline-block;
 	width: 55%;
 	background-color: #33cccc;
+	border: 1px solid black;
 }
 
 #middleSection > p > img {
 	width: 100%;
 }
+
+
+
+
 
 #articlesSection {
 	width: 300px;
@@ -49,13 +85,46 @@ div p img {
 	float: right;
 	width: 30%;
 	background-color: #009999;
+	border-bottom-right-radius: 10px;
+	border: 1px solid black;
 }
 
-footer {
-	display: block;
-	border: 2px solid green;
+#articlesNavigation {
+	list-style: none;
+	text-decoration: none;
+	padding: 10px;
+	height: 504px;
+	font-size: 15px;
 }
+
+#articlesNavigation > li {
+	height: 30px;
+	font-size: 21px;
+}
+
+.articleText {
+	margin: 5px;
+}
+
+#articlesSection > h1 {
+	text-align: center;
+}
+
+
+
+
 
 .clear {
 	clear: both;
+}
+
+html {
+	background-color: #5ccccc;
+}
+
+#footer {
+	display: block;
+	background-color: #1d7373;
+	border-radius: 10px;
+	text-indent: 10px;
 }
